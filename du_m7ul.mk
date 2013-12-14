@@ -22,19 +22,19 @@
 #
 
 # Get the long list of APNs
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/du/config/gsm.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/du/config/common.mk)
 
 # Inherit from m7ul device
 $(call inherit-product, device/htc/m7ul/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := omni_m7ul
+PRODUCT_NAME := du_m7ul
 PRODUCT_DEVICE := m7ul
 PRODUCT_BRAND := htc
 PRODUCT_MANUFACTURER := htc
