@@ -15,4 +15,4 @@
 #
 $(call inherit-product, device/htc/m7ul/custom_m7ul.mk)
 
-PRODUCT_NAME := aosp_m7ul
+PRODUCT_NAME := aosp_m7gsm

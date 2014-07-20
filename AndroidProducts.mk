@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_m7ul.mk \
+    $(LOCAL_DIR)/aosp_m7gsm.mk \
     $(LOCAL_DIR)/du.mk

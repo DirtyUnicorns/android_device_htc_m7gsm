@@ -15,10 +15,10 @@
 #
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/htc/m7ul/m7ul-vendor.mk)
+$(call inherit-product-if-exists, vendor/htc/m7gsm/m7gsm-vendor.mk)
 
 # overlays
-DEVICE_PACKAGE_OVERLAYS += device/htc/m7ul/overlay
+DEVICE_PACKAGE_OVERLAYS += device/htc/m7gsm/overlay
 
 # common overlays
 DEVICE_PACKAGE_OVERLAYS += device/htc/m7-common/overlay-gsm

@@ -31,11 +31,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/du/config/common.mk)
 
 # Inherit from m7ul device
-$(call inherit-product, device/htc/m7ul/device.mk)
+$(call inherit-product, device/htc/m7gsm/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := du_m7ul
-PRODUCT_DEVICE := m7ul
+PRODUCT_NAME := du_m7gsm
+PRODUCT_DEVICE := m7gsm
 PRODUCT_BRAND := htc
 PRODUCT_MANUFACTURER := htc
 PRODUCT_MODEL := One
