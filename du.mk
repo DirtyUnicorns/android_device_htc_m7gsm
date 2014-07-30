@@ -37,5 +37,9 @@ $(call inherit-product, device/htc/m7gsm/device.mk)
 PRODUCT_NAME := du_m7gsm
 PRODUCT_DEVICE := m7gsm
 PRODUCT_BRAND := htc
-PRODUCT_MANUFACTURER := htc
+PRODUCT_MANUFACTURER := HTC
 PRODUCT_MODEL := One
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BUILD_FINGERPRINT="htc/m7_google/m7:4.4.3/KTU84L.H4/347097:user/release-keys" \
+    PRIVATE_BUILD_DESC="4.07.1700.4 CL347097 release-keys"
